@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Montserrat, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    color: #fff;
+    background-image: url(../VildiaievaFrontEndProHomework41/img/heroes-min.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.container {
+    width: 630px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.3); 
+    padding: 20px;
+}
+
+#characterForm {
+    max-width: 400px; 
+    margin: auto; 
+}
+
+#characterForm label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#characterForm input,
+#characterForm select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+#characterForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#characterForm button:hover {
+    background-color: #45a049;
+}
+
+.heroes_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.heroes_table th, .heroes_table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.heroes_table th {
+    background-color: #4caf50;
+    color: white;
+}
+
+.favourite label {
+    display: flex;
+    align-items: center;
+}
+
+.favourite input {
+    margin-left: 5px;
+}
+
+#characterTableBody button {
+    width: 100%;
+    padding: 8px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#characterTableBody button:hover {
+    background-color: #d32f2f;
+}
